@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(0deg, rgb(113, 113, 201), rgb(109, 153, 109) 40%, rgb(238, 70, 70));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 30px;
+}
+ul{
+    position: relative;
+    left: 30px;
+}
+.reload   {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background: linear-gradient(rgb(229, 81, 81) , black);
+    color: white;
+    border-radius: 10px;
+    cursor:pointer ; }
+    .hide{
+        display: none;
+    }
